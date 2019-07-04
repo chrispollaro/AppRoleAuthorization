@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{5235D27D-164B-441E-A553-5F82DAED4692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleClaimAuthorization", "RoleClaimAuthorization\RoleClaimAuthorization.csproj", "{12BD227E-2F5A-4DDC-8AA4-CCE16D5DAFD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5235D27D-164B-441E-A553-5F82DAED4692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5235D27D-164B-441E-A553-5F82DAED4692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5235D27D-164B-441E-A553-5F82DAED4692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5235D27D-164B-441E-A553-5F82DAED4692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BD227E-2F5A-4DDC-8AA4-CCE16D5DAFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BD227E-2F5A-4DDC-8AA4-CCE16D5DAFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BD227E-2F5A-4DDC-8AA4-CCE16D5DAFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BD227E-2F5A-4DDC-8AA4-CCE16D5DAFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB73BDC2-5807-4992-AE8E-6790D3AE7A80}
+	EndGlobalSection
+EndGlobal
