@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Security.Claims;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -25,7 +22,7 @@ namespace TestWebApp
             {
                 ClaimsIdentity ci = ClaimsPrincipal.Current.Identities.First();
 
-                ci.AddClaim(new Claim(ClaimTypes.GroupSid, "Admin"));
+                ci.AddClaim(new Claim(ClaimTypes.Role, "Admin"));
                 ci.AddClaim(new Claim(ClaimTypes.Role, "TestRole"));
             }
         }
