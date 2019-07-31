@@ -11,6 +11,8 @@
     <RepositoryUrl>https://github.com/chrispollaro/AppRoleAuthorization</RepositoryUrl>
     <PackageTags>"ASP.NET 4"  "MVC 5" Authorization</PackageTags>
     <Description>Library that adds an extension method and attribute for dealing with claim types of "Role" on an IPrincipal object.</Description>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
 

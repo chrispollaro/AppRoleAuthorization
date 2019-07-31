@@ -28,7 +28,7 @@ namespace System.Web.Mvc
 
             if (principal is ClaimsPrincipal)
             {
-                var roles = Roles.Split(',');
+                var roles = Roles.Split(',').Select(r => r.Trim()).ToArray();
                 if (((ClaimsPrincipal)principal).Claims.Where(c => c.Type == ClaimTypes.Role)
                     .Any(claim => roles.Any(r => r == claim.Value)))
                     return;
